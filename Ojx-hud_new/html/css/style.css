@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.hud_warp {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    zoom: 80%;
+}
+
+.hudblockfuck {
+    position: relative;
+    left: 2.1vh;
+    display: inline-block;
+    position: relative;
+    width: 2.6vw;
+    height: 2.4vw; 
+}
+
+/* clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%); this is for compass*/
+
+.ojxline {
+    position: absolute;
+    left: 2.4vh;
+    bottom: 5.8vh;
+    width: 6.9vh;
+    height: 0.4vh;
+    transform: rotate(45deg);
+    background: rgba(0, 0, 0, 0.644);
+}
+
+.ojxlinefull {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #ca4c68;
+    border-radius: 1%;
+
+    animation: .3s;
+    transition: 0.4s;
+    transform-origin: bottom;
+    bottom: 0;
+}
+
+.ojxstaminaline {
+    position: absolute;
+    left: 2.7vh;
+    bottom: 0vh;
+    width: 6.9vh;
+    height: 0.4vh;
+    transform: rotate(-45deg);
+    background: rgba(0, 0, 0, 0.644);
+}
+
+
+.ojxstaminalinefull {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    border-radius: 1%;
+
+    animation: .3s;
+    transition: 0.4s;
+    transform-origin: bottom;
+    bottom: 0;
+}
+
+
+.ojxSheeshline {
+    position: absolute;
+    left: 6.6vh;
+    bottom: 6.4vh;
+    width: 13vh;
+    height: 0.3vh;
+    background: rgba(0, 0, 0, 0.644);
+}
+
+.hudtext, .as, .ass, .asss, .assss, .asssss {
+    position: relative;
+    color: rgb(255, 255, 255);
+    top: 3.2vh;
+    left: 0.1vh;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.hudthinggee {
+    position: relative;
+    background: rgba(0, 0, 0, 0.644);
+    box-shadow: 0 0 3vh black;
+    border-right: 0.4vh solid white;
+    padding-right: 4.3vh;
+    height: 6vh;
+    left: 6.6vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 10% 50%);
+}
+
+.compass_block {
+    position: absolute;
+    width: 6vh;
+    height: 6vh;
+    background: white;
+    transform: rotate(45deg);
+    display: inline-block;
+    margin-right: 4vh;
+    outline-offset: 0.4vh;
+    outline: 0.4vh solid rgba(0, 0, 0, 0.644);
+    box-shadow: 0 0 3vh black;
+}
+
+.compass_block p {
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    left: 50%;
+    top: 0%;
+    font-weight: bolder;
+    font-size: 3vh;
+    text-align: center;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    text-shadow: 0 0 0.3vh rgba(0, 0, 0, 0.26);
+
+}
+ 
+i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-shadow: 0 0 .1vw #000 ; */
+    font-size: 1.4vh;
+    color: #ffffff25;
+}
+
+
+
+.carhud_fucknil {
+    position: absolute;
+    left: 6.6vh;
+    bottom: 12.6vh;
+    width: 20vh;
+    height: 0.4vh;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5vh;
+    color: white;
+    text-shadow: 0 0 0.5vh rgba(0, 0, 0, 0.596);
+}
+
+#fueltext {
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 2.3vh
+}
+
+#belticon {
+    position: absolute;
+    left: 12vh;
+    top: 4.8vh;
+    color: #00000096;
+    transition: 0.5s;
+    font-size: 1.3vh;
+    font-weight: bold;
+} 
+
+.locationAss {
+    position: absolute;
+    right: 0%;
+    bottom: 5.8vh;
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 1.9vh;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    text-overflow: ellipsis;
+    max-width: 11vh;
+
+}
